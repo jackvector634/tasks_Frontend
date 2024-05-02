@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import Cookies from 'js-cookie';
-import 'bootstrap/dist/css/bootstrap.min.css'; // Importing Bootstrap CSS
 import { Card, Form, Button, Spinner } from 'react-bootstrap'; // Importing Bootstrap components
 
 function LoginPage() {
-    const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('');
+    const [email, setEmail] = useState('admin@gmail.com'); // Set default email
+    const [password, setPassword] = useState('admin'); // Set default password
     const [loading, setLoading] = useState(false); // State to manage loading state
     const navigate = useNavigate();
 
