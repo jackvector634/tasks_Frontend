@@ -8,6 +8,7 @@
 4. [Usage](#usage)
 5. [Components](#components)
 6. [Services](#services)
+7. [Deployed Link](#deployed-link)
 
 ## Description
 
@@ -93,5 +94,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 1. **taskService.js**: Service for interacting with task-related functionalities (e.g., fetching tasks, creating tasks).
 2. **userService.js**: Service for interacting with user-related functionalities (e.g., user authentication, user registration).
+
+## Deployed Link
+
+https://tasks-frontend-gray.vercel.app/
 
 
